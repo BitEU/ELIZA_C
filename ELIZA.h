@@ -1,13 +1,21 @@
 /*
- * ELIZA/DOCTOR Simulation
- * Modern C implementation for Windows Console
- * Created by Joseph Weizenbaum
- * This version by Jeff Shrager
- * Edited and modified for MITS 8K BASIC 4.0 by Steve North
- * From Creative Computing Jul-Aug 1977
+ * Program Name: ELIZA
+ * Program Release Year: 2025
+ * Program Author: Steven S.
+ * Program Link: https://github.com/BitEU/ELIZA
  * 
- * Rewritten in C for Windows conhost terminal
- * Compiles with MSVC and MinGW
+ * Original Name: ELIZA
+ * Original Release Year: 1966
+ * Original Author: Joseph Weizenbaum
+ * Original Link: https://sites.google.com/view/elizaarchaeology/code?authuser=0
+ * Original System: IBM 7074
+ * 
+ * Rewrite Name: ELIZA
+ * Rewrite Release Year: 1977
+ * Rewrite Author: Steve North
+ * Rewrite Link: https://vintagecomputer.net/cisc367/Creative%20Computing%20Jul-Aug%201977%20Eliza%20BASIC%20listing.pdf
+ *
+ * Major changes from rewrite: Ported to C and added Windows Console/UNIVAC 1219 support
  */
 
 #ifndef ELIZA_H
